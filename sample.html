@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample</title>
+</head>
+<body>
+    <div class="all" style="margin-left: 40%;margin-top: 10%;">
+        <div  id="a" style="background-color: blue;height:200px;width:200px;position: relative;" onclick="up()"> </div>
+        <div  id="b" style="background-color:hsl(26, 100%, 50%);height:200px;width:200px;margin-top: -18%;margin-left: 9%; position: relative;" onclick="up1()"> </div>
+
+    </div>
+    <script>
+        function up(){
+            document.getElementById("a").style.zIndex = "1";
+         
+        }
+        function up1(){
+            document.getElementById("a").style.zIndex = "0";
+            
+        }
+        
+        
+
+
+    </script>
+    
+    
+</body>
+</html>
